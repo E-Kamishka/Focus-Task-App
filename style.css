@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#timer {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#timer input {
+  width: 80px;
+  font-size: 18px;
+}
+
+#timer button {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#task-section {
+  margin: 20px;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
